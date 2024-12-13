@@ -1,0 +1,7 @@
+Welcome
+to
+the
+word
+of
+C
+language
