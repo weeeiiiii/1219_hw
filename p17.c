@@ -10,7 +10,7 @@ int main(void)
     while (!feof(fptr))
     {
         bytes=fread(str,sizeof(char),MAX-1,fptr);
-        str[bytes]='\0';//确保字符串 str 是一个有效的以 \0（空字符）结尾的 C 字符串
+        str[bytes]='\0';//確保字符串 str 是一個有效的以 \0（空字符）結尾的 C 字符串
         printf("%s\n",str);
     }
     fclose(fptr);
